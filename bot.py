@@ -5,7 +5,7 @@ import messagedumper
 import aiofiles
 import os
 
-bot = Bot(token="5244645767:AAGGCTR_uLo4RQpVOiC4MFeuWOAkXqsVPO0")
+bot = Bot(token="token")
 # Диспетчер для бота
 dp = Dispatcher(bot)
 # Включаем логирование
