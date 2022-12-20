@@ -1,0 +1,7 @@
+venv
+catboost_info
+*.xlsx
+*.session
+*.log
+reports
+__pycache__
