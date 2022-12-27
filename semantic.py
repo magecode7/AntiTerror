@@ -11,7 +11,7 @@ patterns = "[^а-яА-Яa-zA-Z0-9]"
 stopwords_ru = stopwords.words("russian") + stopwords.words("english")
 morph = MorphAnalyzer()
 
-def tokenize(text: str) -> list[str]:
+def tokenize(text: str) -> list:
     text = re.sub(patterns, ' ', text)
 
     tokens = []
